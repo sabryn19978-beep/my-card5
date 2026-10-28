@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>معرض الأعمال</title>
+  <meta name="description" content="معرض أعمال — متاجر إلكترونية ومتجر ألعاب الأطفال، الدانة، الرحل، والبطاقة المهنية الرقمية. هنا تبدأ الحكاية.">
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='26' fill='%23123B70'/%3E%3Ctext x='50' y='71' font-size='62' font-family='sans-serif' font-weight='bold' fill='%2339BDE5' text-anchor='middle'%3E%D8%B5%3C/text%3E%3C/svg%3E">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+  <a class="skip-link" href="#main">تخطَّ إلى المحتوى</a>
+
+  <!-- شاشة التحميل -->
+  <div class="preloader" role="status" aria-live="polite">
+    <div class="preloader__inner">
+      <div class="preloader__mark">ص</div>
+      <p class="preloader__name">معرض الأعمال</p>
+      <div class="preloader__bar"><span></span></div>
+    </div>
+  </div>
+
+  <div class="cursor-glow" aria-hidden="true"></div>
+  <div class="scroll-progress" aria-hidden="true"><span></span></div>
+
+  <!-- ============ الترويسة ============ -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <span class="brand__mark" aria-hidden="true">ص</span>
+        <span class="brand__text">
+          <b>معرض الأعمال</b>
+          <small>معرض الأعمال</small>
+        </span>
+      </a>
+
+      <nav class="site-nav" id="siteNav" aria-label="القائمة الرئيسية">
+        <a href="index.html" data-nav>الرئيسية</a>
+        <a href="projects.html" data-nav>المشاريع</a>
+        <a href="contact.html" data-nav>تواصل</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="siteNav" aria-label="فتح القائمة">
+          <span></span><span></span><span></span>
+        </button>
+        <a class="btn btn--primary btn--sm header-cta" href="contact.html">
+          <span class="btn__label">لنعمل معًا</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ الغلاف ============ -->
+    <section class="hero">
+      <div class="hero__bg" aria-hidden="true">
+        <span class="blob blob--1"></span>
+        <span class="blob blob--2"></span>
+        <span class="blob blob--3"></span>
+        <span class="deco deco--ring"></span>
+        <span class="deco deco--square"></span>
+        <span class="deco deco--star">✦</span>
+      </div>
+
+      <div class="container hero-grid">
+        <div class="hero__copy">
+          <span class="eyebrow" data-reveal="zoom">معرض الأعمال</span>
+
+          <h1 data-split data-split-delay="120">
+            هنا تبدأ الحكاية.<br>
+            أصنع تصاميم <span class="accent">تحمل روح الفكرة</span>
+          </h1>
+
+          <p class="hero__lead" data-reveal style="--d:420ms">
+            من أول خط إلى آخر تفصيلة، أصنع تصاميم تحمل روح الفكرة وتعكس جمال التفاصيل.
+          </p>
+
+          <div class="hero__cta" data-reveal style="--d:560ms">
+            <a class="btn btn--primary" href="projects.html">
+              <span class="btn__label">كل المشاريع</span>
+              <span class="btn__icon" aria-hidden="true">←</span>
+            </a>
+            <a class="btn btn--ghost" href="contact.html">
+              <span class="btn__label">تواصل معي</span>
+            </a>
+          </div>
+
+          <div class="hero__meta" data-reveal style="--d:700ms">
+            <span class="hero__meta-item"><b aria-hidden="true">✦</b> متاجر إلكترونية</span>
+            <span class="hero__meta-item"><b aria-hidden="true">✧</b> تصميم واجهات</span>
+            <span class="hero__meta-item"><b aria-hidden="true">❖</b> جدة</span>
+          </div>
+        </div>
+
+        <!-- لوحة استوديو مثل كانفا -->
+        <div class="canvas-stage" data-reveal="zoom" style="--d:260ms">
+          <div class="canvas">
+            <div class="canvas__bar">
+              <span class="canvas__dot"></span>
+              <span class="canvas__dot"></span>
+              <span class="canvas__dot"></span>
+              <span class="canvas__title">الغلاف • 3:2</span>
+            </div>
+
+            <div class="canvas__art">
+              <img
+                src="assets/images/cover.webp"
+                alt="أطقم شنط سفر ومنظمات معروضة في معرض الرحل بجدة"
+                width="1536"
+                height="1024"
+                loading="lazy">
+              <span class="canvas__handle canvas__handle--tl" aria-hidden="true"></span>
+              <span class="canvas__handle canvas__handle--tr" aria-hidden="true"></span>
+              <span class="canvas__handle canvas__handle--bl" aria-hidden="true"></span>
+              <span class="canvas__handle canvas__handle--br" aria-hidden="true"></span>
+              <span class="canvas__size" dir="ltr">1536 × 1024</span>
+            </div>
+          </div>
+
+          <div class="sticker sticker--a">
+            <i aria-hidden="true">✦</i> تصاميم أصلية
+          </div>
+          <div class="sticker sticker--b">
+            <i aria-hidden="true">✧</i> تفاصيل مدروسة
+          </div>
+          <div class="sticker sticker--c">
+            <i aria-hidden="true">🖌️</i> فكرة ← واجهة
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ شريط العلامات ============ -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <div class="marquee__item">
+          <span>ألعاب أطفال</span><span>شنط سفر</span><span>خرز ولولو</span>
+          <span>منظمات سفر</span><span>بطاقات رقمية</span><span>متاجر إلكترونية</span>
+        </div>
+        <div class="marquee__item">
+          <span>ألعاب أطفال</span><span>شنط سفر</span><span>خرز ولولو</span>
+          <span>منظمات سفر</span><span>بطاقات رقمية</span><span>متاجر إلكترونية</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ============ نبذة ============ -->
+    <section class="section about">
+      <div class="container">
+        <div class="about__panel" data-reveal>
+          <div class="about__text">
+            <span class="eyebrow">من أنا</span>
+            <h3 style="margin-top:.9rem">مرحبًا بكم في معرض الأعمال</h3>
+            <p>
+              أعمل في التجارة الإلكترونية وتصميم واجهات، وأؤمن أن الجمال في التفاصيل الصغيرة
+              أكثر منه في الحجم. كل مشروع أبدأه بسؤال: كيف يحس الزائر وهو يدخل؟
+            </p>
+            <p>
+              من اختيار الصور، إلى ترتيب الكلمات، إلى آخر لمسة لون — أحب أن يترك التصميم أثره
+              قبل أن يترك انطباعه.
+            </p>
+            <p class="about__quote">
+              «من أول خط إلى آخر تفصيلة — أصنع ما يحمل روح الفكرة.»
+            </p>
+
+            <div class="chips">
+              <span class="chip">تصميم واجهات</span>
+              <span class="chip">تجارة إلكترونية</span>
+              <span class="chip">متاجر محلية</span>
+              <span class="chip">تغليف هدايا</span>
+              <span class="chip">خدمة عملاء</span>
+              <span class="chip">بطاقات رقمية</span>
+            </div>
+          </div>
+
+          <div class="about__art" data-parallax="0.05">
+            <div class="about__art-frame">
+              <img
+                src="assets/images/project-hand.webp"
+                alt="يدان تصنعان قطعة يدوية من الخرز واللولو"
+                width="735"
+                height="679"
+                loading="lazy">
+            </div>
+            <div class="sticker sticker--b">
+              <i aria-hidden="true">✦</i> صناعة يدوية
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ مشاريع مختارة ============ -->
+    <section class="section" id="featured">
+      <div class="container">
+        <div class="section-head section-head--center" data-reveal>
+          <span class="eyebrow">مختارات</span>
+          <h2>ثلاثة مشاريع <span class="underline">أحبّها أكثر من غيرها</span></h2>
+          <p>واجهات بُنيت لتبيع، لا لتبهر فقط — كل زاوية فيها تخاطب الزائر بلغته.</p>
+        </div>
+
+        <div class="projects-grid" data-reveal-group>
+
+          <article class="tpl-card" data-reveal>
+            <div class="tpl-card__frame">
+              <img
+                src="assets/images/project-toys.jpg"
+                alt="رفوف متجر الألعاب مليئة بالألعاب القطنية الناعمة"
+                width="912"
+                height="1088"
+                loading="lazy">
+              <span class="tpl-card__shine" aria-hidden="true"></span>
+              <span class="tpl-card__num">01</span>
+              <span class="tpl-card__tag">متجر ألعاب</span>
+              <div class="tpl-card__hover"><span class="tpl-card__cta">معاينة المشروع</span></div>
+            </div>
+            <div class="tpl-card__body">
+              <h3>متجر الألعاب</h3>
+              <p class="tpl-card__desc">
+                محل ألعاب في قلب جدة يجمع فيه كل لعبة مختارة كأنها لطفله، من أمان الفرح إلى المتعة.
+                صُممت صفحاته لتكون بسيطة ودافئة، فيختار العميل هديته بسهولة ويطلبها على واتساب.
+              </p>
+              <a class="tpl-card__link" href="https://sabreen-toys-jeddah.lovable.app" target="_blank" rel="noopener noreferrer">
+                زيارة المشروع
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <article class="tpl-card" data-reveal>
+            <div class="tpl-card__frame">
+              <img
+                src="assets/images/project-leather.jpg"
+                alt="طقم شنط من الجلد الطبيعي بثلاث قطع من متجر الرحل"
+                width="1024"
+                height="1024"
+                loading="lazy">
+              <span class="tpl-card__shine" aria-hidden="true"></span>
+              <span class="tpl-card__num">02</span>
+              <span class="tpl-card__tag">متجر شنط</span>
+              <div class="tpl-card__hover"><span class="tpl-card__cta">معاينة المشروع</span></div>
+            </div>
+            <div class="tpl-card__body">
+              <h3>الرحل — في الحال والترحال</h3>
+              <p class="tpl-card__desc">
+                أطقم شنط من جلد طبيعي تحمي ما فيها من الكسر في الطريق، بخامات تدوم وأقفال قوية.
+                رُتّبت صفحاته لتعرض كل قطعة وسعرها بوضوح، فيعرف المسافر ما يشتري قبل أن يسأل عنه.
+              </p>
+              <a class="tpl-card__link" href="https://alrahl-journeys.lovable.app" target="_blank" rel="noopener noreferrer">
+                زيارة المشروع
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <article class="tpl-card" data-reveal>
+            <div class="tpl-card__frame">
+              <img
+                src="assets/images/project-beads.webp"
+                alt="شنطة خرز بلون البيج مع سلسلة ذهبية من متجر الدانة"
+                width="736"
+                height="981"
+                loading="lazy">
+              <span class="tpl-card__shine" aria-hidden="true"></span>
+              <span class="tpl-card__num">03</span>
+              <span class="tpl-card__tag">صناعة يدوية</span>
+              <div class="tpl-card__hover"><span class="tpl-card__cta">معاينة المشروع</span></div>
+            </div>
+            <div class="tpl-card__body">
+              <h3>الدانة — شنط الخرز واللولو</h3>
+              <p class="tpl-card__desc">
+                شنط خرز ولولو تُنسج حبة حبة في جدة، فلا تتشابه قطعتان ولا تُنسى واحدة ساحرة.
+                اخترتُ لها ألوانًا هادئة وتغليفًا ناعمًا يليق بالمناسبات، فتحوّل الحقيبة إلى هدية تُفرح.
+              </p>
+              <a class="tpl-card__link" href="https://aldana.sabryn9631.workers.dev/" target="_blank" rel="noopener noreferrer">
+                زيارة المشروع
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+              </a>
+            </div>
+          </article>
+
+        </div>
+
+        <div class="center-cta" data-reveal>
+          <a class="btn btn--dark" href="projects.html">
+            <span class="btn__label">كل المشاريع</span>
+            <span class="btn__icon" aria-hidden="true">←</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ لمحة من الأعمال ============ -->
+    <section class="section section--tight">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <span class="eyebrow">لمحة سريعة</span>
+          <h2>لقطات من <span class="underline">تفاصيل المشاريع</span></h2>
+          <p>خامات، تنظيم، وتفاصيل صغيرة تصنع الفرق — هكذا تُبنى هوية المتجر.</p>
+        </div>
+
+        <div class="gallery-strip" data-reveal-group>
+          <figure class="shot" data-reveal>
+            <img
+              src="assets/images/project-aluminum.jpg"
+              alt="قطع ألمنيوم مصنّعة بعناية من تفاصيل مشاريع الرحل"
+              width="1024"
+              height="1024"
+              loading="lazy">
+            <figcaption class="shot__cap">خامات متينة</figcaption>
+          </figure>
+
+          <figure class="shot" data-reveal>
+            <img
+              src="assets/images/project-kids.jpg"
+              alt="ألعاب أطفال ملوّنة مرتّبة على رفوف المتجر"
+              width="1024"
+              height="1024"
+              loading="lazy">
+            <figcaption class="shot__cap">فرحة الأطفال</figcaption>
+          </figure>
+
+          <figure class="shot shot--wide" data-reveal>
+            <img
+              src="assets/images/project-pearl.webp"
+              alt="تفاصيل اللولو والخرز في شنط الدانة اليدوية"
+              width="735"
+              height="843"
+              loading="lazy">
+            <figcaption class="shot__cap">لولو وخرز يدوي</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ الأرقام ============ -->
+    <section class="section section--tight">
+      <div class="container">
+        <div class="cta-band" data-reveal="zoom">
+          <div class="cta-band__glow" aria-hidden="true"></div>
+          <div class="stats" style="position:relative;z-index:2">
+            <div class="stat">
+              <span class="stat__value" data-count="6">0</span>
+              <span class="stat__label">مشاريع</span>
+            </div>
+            <div class="stat">
+              <span class="stat__value" data-count="3">0</span>
+              <span class="stat__label">متاجر إلكترونية</span>
+            </div>
+            <div class="stat">
+              <span class="stat__value" data-count="11" data-suffix="+">0</span>
+              <span class="stat__label">سنة خبرة</span>
+            </div>
+            <div class="stat">
+              <span class="stat__value" data-count="100" data-suffix="٪">0</span>
+              <span class="stat__label">تصاميم أصلية</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ دعوة للتواصل ============ -->
+    <section class="section section--tight">
+      <div class="container">
+        <div class="cta-band" data-reveal>
+          <div class="cta-band__glow" aria-hidden="true"></div>
+          <div class="cta-band__inner">
+            <div>
+              <h2>عندك فكرة مشروع؟ أنا هنا.</h2>
+              <p>احكِ لي عنها، وسأخبرك كيف نحوّلها إلى واجهة يحبّها الزائر ويعود إليها.</p>
+            </div>
+            <div class="cta-band__actions">
+              <a class="btn btn--primary" href="contact.html">
+                <span class="btn__label">تواصل معي</span>
+                <span class="btn__icon" aria-hidden="true">←</span>
+              </a>
+              <a class="btn btn--outline-light" href="projects.html">
+                <span class="btn__label">تصفّح المشاريع</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ التذييل ============ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand"><span aria-hidden="true">ص</span> معرض الأعمال</div>
+          <p>أصنع تصاميم تحمل روح الفكرة وتعكس جمال التفاصيل — من أول خط إلى آخر تفصيلة.</p>
+          <div class="footer-social">
+            <a href="https://wa.me/966571828519" target="_blank" rel="noopener noreferrer" aria-label="واتساب" title="واتساب">💬</a>
+            <a href="tel:+966571828519" aria-label="اتصال هاتفي" title="اتصال">📞</a>
+            <a href="mailto:sabryn111@gmail.com" aria-label="البريد الإلكتروني" title="البريد">✉️</a>
+          </div>
+        </div>
+
+        <nav aria-label="روابط الموقع">
+          <h4>روابط</h4>
+          <ul class="footer-links">
+            <li><a href="index.html" data-nav>الرئيسية</a></li>
+            <li><a href="projects.html" data-nav>المشاريع</a></li>
+            <li><a href="contact.html" data-nav>تواصل</a></li>
+          </ul>
+        </nav>
+
+        <div>
+          <h4>المشاريع</h4>
+          <ul class="footer-links">
+            <li><a href="https://sabreen-toys-jeddah.lovable.app" target="_blank" rel="noopener noreferrer">متجر الألعاب</a></li>
+            <li><a href="https://alrahl-journeys.lovable.app" target="_blank" rel="noopener noreferrer">الرحل</a></li>
+            <li><a href="https://aldana.sabryn9631.workers.dev/" target="_blank" rel="noopener noreferrer">الدانة</a></li>
+            <li><a href="https://statuesque-khapse-6a46aa.netlify.app/" target="_blank" rel="noopener noreferrer">البطاقة الرقمية</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>© <span data-year>2026</span> معرض الأعمال — كل الحقوق محفوظة</span>
+        <span>صُنع بعناية في جدة ✦</span>
+      </div>
+    </div>
+  </footer>
+
+  <button class="to-top" type="button" aria-label="العودة إلى أعلى الصفحة">↑</button>
+  <div class="toast" role="status" aria-live="polite"></div>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
